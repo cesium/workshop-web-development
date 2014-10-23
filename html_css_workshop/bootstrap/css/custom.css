@@ -1,0 +1,53 @@
+.micropost-form input[type="text"] {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.micropost-form input[type="submit"] {
+    margin-top: 10px;
+}
+
+.timeline-entry {
+    margin-bottom: 20px;
+}
+
+.timeline-entry img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+a.user {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    -o-transition: 0.3s color;
+    -ms-transition: 0.3s color;
+    -moz-transition: 0.3s color;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+}
+
+a.user:hover, a.user:focus {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p.content {
+    font-family: Times, sans-serif;
+}
+
+#curr-user {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.handle {
+    color: grey;
+    font-size: 14px;
+}
